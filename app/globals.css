@@ -198,9 +198,8 @@ textarea { resize: vertical; }
 .contact-list { margin-top: 25px; }
 .contact-list span { display: flex; align-items: center; gap: 12px; padding: 13px 0; color: var(--navy-dark); font-size: 13px; font-weight: 600; border-top: 1px solid var(--line); }
 .contact-list .icon { color: var(--orange); }
-.map-placeholder { min-height: 360px; background-color: var(--sky); background-image: linear-gradient(30deg, rgba(6,42,128,.07) 12%, transparent 12.5%, transparent 87%, rgba(6,42,128,.07) 87.5%), linear-gradient(150deg, rgba(6,42,128,.07) 12%, transparent 12.5%, transparent 87%, rgba(6,42,128,.07) 87.5%); background-size: 80px 140px; display: flex; flex-direction: column; justify-content: center; align-items: center; border-radius: var(--radius); text-align: center; color: var(--muted); font-size: 12px; }
-.map-placeholder > .icon { width: 40px; height: 40px; color: var(--orange); margin-bottom: 14px; }
-.map-placeholder b { display: block; color: var(--navy); font-size: 16px; margin-bottom: 5px; }
+.map-embed { align-self: stretch; min-height: 360px; border-radius: var(--radius); overflow: hidden; }
+.map-embed iframe { display: block; }
 
 /* ── Footer ── */
 footer { background: #02143d; color: white; padding: 70px max(6vw, calc((100vw - 1220px) / 2)) 25px; }
